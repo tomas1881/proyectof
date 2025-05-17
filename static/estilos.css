@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+    background-image: url('/static/images/fetal.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+    color: #003366;
+}
+
+.container {
+    background-color: #fefefe;
+}
+
+input[type="number"], input[type="file"] {
+    border: 1px solid #b3d1ff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 10px;
+}
